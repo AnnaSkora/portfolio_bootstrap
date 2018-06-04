@@ -21,7 +21,6 @@ body {
 
 section {
     padding: 60px 50px;
-
 }
 
 .social-icons {
@@ -37,6 +36,7 @@ section {
     line-height: 40px;
     border: 1px solid #FFF;
     margin-right: 10px;
+    margin-bottom: 20px;
     transition: all 0.4s;
 }
 
@@ -68,19 +68,19 @@ section {
     text-align: right;
 }
 
-#main-nav ul .list-item {
+#main-nav ul .nav-item {
     display: inline-block;
     margin: 0 20px;
     line-height: 60px;
 }
 
-#main-nav ul .list-item a {
+#main-nav ul .nav-item a {
     color: limegreen;
     text-decoration: none;
     transition: all 0.4s;
 }
 
-#main-nav ul .list-item a:hover {
+#main-nav ul .nav-item a:hover {
     color: #222;
 }
 
@@ -130,7 +130,7 @@ section {
 #about article {
     margin: 0;
     display: inline-block;
-    width: 50%;
+    width: 80%;
     float: left;
 }
 
@@ -166,7 +166,7 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 33.333333%;
+    width: 100%;
 }
 
 #portfolio .portfolio-inner.img-1 {
@@ -215,7 +215,7 @@ section {
 }
 
 #contact .contact-inner {
-    width: 50%;
+    width: 100%;
     float: left;
     display: inline-block;
 }
@@ -240,8 +240,8 @@ section {
 }
 
 #contact .contact-inner form input[type="submit"] {
-    float: right;
-    width: 20%;
+    float: left;
+    width: 30%;
     background-color: limegreen;
     color: #FFF;
     border: 0;
